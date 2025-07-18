@@ -2,7 +2,7 @@ version: '3'
 
 services:
   docmost:
-    image: https://github.com/seu-usuario/seu-repositorio-docmost.git#main
+    image: https://github.com/gabrielaug/ekkodocs.git#main
     dockerfile: Dockerfile
     depends_on:
       - db
