@@ -9,7 +9,7 @@ services:
       - redis
     environment:
       APP_URL: 'http://localhost:3000'
-      APP_SECRET: 'REPLACE_WITH_LONG_SECRET'
+      APP_SECRET: 'ekkodocs#25062012'
       DATABASE_URL: 'postgresql://docmost:Tecnologia25062012@db:5432/docmost?schema=public'
       REDIS_URL: 'redis://redis:6379'
     ports:
